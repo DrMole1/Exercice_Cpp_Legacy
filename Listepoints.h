@@ -13,15 +13,12 @@
 
 
 
-class CListepoints  : CListe, CPoint{
+class CListepoints  : public CListe, public CPoint{
 
 
-
-private:
-	int m_nX;
-	int m_nY;
 public:
-
+	CListepoints() {}
+	void affiche();
 
 };
 #endif

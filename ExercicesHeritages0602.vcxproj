@@ -138,12 +138,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Liste.cpp" />
+    <ClCompile Include="Listepoints.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Point.cpp" />
     <ClCompile Include="vecteur.cpp" />
     <ClCompile Include="vecteurb.cpp" />
     <ClCompile Include="Vectok.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Liste.h" />
+    <ClInclude Include="Listepoints.h" />
+    <ClInclude Include="Point.h" />
     <ClInclude Include="vecteur.h" />
     <ClInclude Include="vecteurb.h" />
     <ClInclude Include="Vectok.h" />

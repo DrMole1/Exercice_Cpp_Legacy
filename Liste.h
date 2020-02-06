@@ -26,8 +26,8 @@ public:
 	CListe();
 	~CListe();
 	void ajoute(void*);
-	void premier(void*);
-	void prochain(void*);
+	void* premier();
+	void* prochain();
 	int fini();
 
 };
